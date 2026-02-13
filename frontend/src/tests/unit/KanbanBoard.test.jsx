@@ -1,6 +1,8 @@
 import { render, screen } from "@testing-library/react";
 
-import KanbanBoard from "../../src/components/KanbanBoard.jsx";
+import KanbanBoard from "../../components/KanbanBoard.jsx";
+
+
 
 test("renders Kanban board title", () => {
   render(<KanbanBoard />);
